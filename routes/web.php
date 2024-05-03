@@ -7,6 +7,10 @@ use App\Providers\RouteServiceProvider;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/user', 'LogInController@title');
-
 Route::get('/user', [LogInController::class, 'title'])->name('LogIn');
+
+
+Route::get('/map', function () {
+    return view('maps123');
+});
+
