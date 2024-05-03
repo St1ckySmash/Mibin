@@ -16,12 +16,13 @@ return new class extends Migration
             $table->string('geo_x');
             $table->string('geo_y');
             $table->string('city');
-            $table->id('caller_id');
-            $table->id('utilizator_id');
-            $table->id('trash_id');
-            $table->id('trash_status');
-            $table->timestamps('time_called');
-            $table->timestamps('time_cleaned');
+            $table->integer('caller_id');
+            $table->integer('utilizator_id');
+            $table->integer('trash_id');
+            $table->integer('trash_status');
+            $table->string('adress');
+            $table->timestamp('time_called');
+            $table->timestamp('time_cleaned');
         });
     }
 
