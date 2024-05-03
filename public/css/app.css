@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #EAEAEA;
+    /* background-color: red; */
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 52%;
+    /* background-color: blue; */
+}
+
+
+.logoText{
+    font-size: 25px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.rightSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 48%;
+    height: 50px;
+    /* background-color: blue; */
+}
+.auth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 50px;
+    /* background-color: aqua; */
+    margin-left: 75%;
+}
+.loginSide{
+    display: flex;
+    flex-direction: row;
+}
+.registerSide{
+    display: flex;
+    flex-direction: row;
+}
+.loginIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.registerIcon{
+    width: 35px;
+    height: 35px;
+    /* background-color: white; */
+}
+hr{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+.mainLayout{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 52px);
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100vw;
+    height: 500px;
+}
+
+.aboutWrapper{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    background-color: blue;
+}
+.aboutTitle{
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    justify-content: center;
+    background-color: wheat
+}
+
+.text{
+    display: flex;
+    background-color: blueviolet;
+}
